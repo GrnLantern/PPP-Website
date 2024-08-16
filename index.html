@@ -11,37 +11,147 @@
     <title>Paradigm Pet Professionals Evidence Based Pet Care Advice for Every Pet</title>
 </head>
 <body>
-  <!-- logo section above topNav --> 
+<!-- logo section above topNav --> 
     <div class="logoHeader">
-    <a href="/index.html"><img class="bigLogo" src="newLogo.png" alt="Paradigm Pet Professionals Logo"></a>
+    <a href="/index.html"><img class="bigLogo" src="newLogo.png" alt="3 overlaping P's in different colors with the word Paradigm Pet Professionals"></a>
     <h1 class="tadLine">Evidence Based Pet Care Advice for Every Pet and Every Pet Lover</h1>
     <h2 class="motto">Nature gave humanity a gift in the form of pets</h2>
     </div>
-    <!-- topNav section below logoHeader -->
+<!-- topNav section below logoHeader -->
     <div class="topNav">
-        <a class="active" href="/index.html">Home</a>
+        <a href="/index.html" class="active">Home</a>
         <a href="/Cats.html">Cats</a>
         <a href="/Dogs.html">Dogs</a>
         <a href="/Birds.html">Birds</a>
         <a href="/Faq.html">FAQ</a>
-        <input type="text" name="searchTextBox" id="searchTextBox" placeholder="Search our site...">
-        <button type="submit" id="searchButton">&#128269 Search</button>
+        
+        <form action="searchSite" class="searchBox">
+            <label id="searchTextBox" name="searchTextBox" for="searchTextBox">Search Our Sight:</label>
+            <input type="search" name="searchTextBox" id="searchTextBox">
+            <button type="submit" id="searchButton">&#128269 Search</button>
+        </form>
+            
     </div>
-    <!-- images section below topNav -->
+<!-- images section below topNav -->
     <div class="imageContainer">
-        <img name="rotatingImage" width="500" height="500" />
+        <img name="rotatingImage" class="rotatingImage" />
     </div>
-    <!-- mainContent section below images -->
-     <div class="mainContent">
-        <h1 class="firstSection">About Us and What We Do</h1>
-        <p>
+<!-- mainContent section below images -->
+<div class="mainContent">
+    <h1 class="firstSection" id="aboutUs">About Us and What We Do</h1>     
+
+        <p class="mainContentP">
             Science has proven that a home with pets can increase the overall quality of life for everyone in the home, including our pets. We at Paradigm
             Pet Professionals are dedicated to providing resources to help you understand and car for you pet be it, furry, scaly, feathered, slimy or otherwise; we
             understand that all pets are worthy of love.
         </p>
-        <p></p>
+        <p class="mainContentP">
+            We have spent the last twelve years training our "Pexperts" (Pet Experts) to work with professionals and pet owners to provide the best care for pets. We currently offer
+            one-on-one consultations for current pet owners and those curious about adoption, as well presentations designed for professionals in the pet car industry. Whether you are looking
+            for basic pet care advice or trying to figure out what pet is right for your home, our Pexperts are here to help and provide evidenced-based advice to to help with 
+            your pets lifelong health and wellness.
+        </p>
+        <p class="mainContentP">
+            Our Pexperts are also here to help you navigate the world of pet adoption. We will walk with you each step of your journey, from deciding
+            what type of pet is best for your home, crossing all the t's and dotting all the i's on the adoption paperwork, and making sure you know what you need
+            before bringing the new family member home.
+        </p>
+</div>
+<!--Contact Form-->
+<h1 class="contactUs" id="contactForm">Contact a Pexpert for Personalized Help</h1>
+<h3 class="contactUs">Fill out the form below and we will contact you within 48 hours to schedule a Pexpert consultation </h3>
+<div class="contactForm">
+    <form action="submit" class="contact"></form>
+        <label>Contact Information</label><br>
+        <label for="required" id="required">All fields required*</label><br>
+
+    <table>
+        
+        <tr>
+            <td><label class="form" for="fName">First Name:</label></td>
+            <td><input type="text" id="fName" name="fName" required></td>
+        </tr>
+        <tr>
+            <td><label class="form"  for="lName">Last Name:</label></td>
+            <td><input type="text" id="lName" name="lName" required></td>
+            <td><label class="form" for="petType">Type of Pet:</label></td>
+            <td><input type="petType" name="petType" id="petType" required></td>
+
+        </tr>
+            
+        <tr>
+            <td><label class="form"  for="phone">Phone:</label></td>
+            <td><input type="tel" id="phone" name="phone" required></td>
+            <td><label class="form"  for="petAge">Pet Age</label></td>
+            <td><input type="petAge" name="petAge" id="petAge" required></td>
+        </tr>
+           
+        <tr>
+            <td><label class="form"  for="email">Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+            <td><label class="form"  for="petName">Pet Name</label></td>
+            <td><input type="petName" name="petName" id="petName" required></td>
+        </tr>
+            
+        <tr>
+            <td><label class="form"  for="timeZone">Time Zone</label></td>
+            <td>
+                <select name="timezone" id="timeZone" class="timeZone">
+                    <option value="-08:00">(GMT -8:00) Pacific Time (US &amp; Canada)</option>
+                    <option value="-07:00">(GMT -7:00) Mountain Time (US &amp; Canada)</option>
+                    <option value="-06:00">(GMT -6:00) Central Time (US &amp; Canada)</option>
+                    <option value="-05:00" selected>(GMT -5:00) Eastern Time (US &amp; Canada)</option>
+                </select>
+            </td>
+        </tr>
+            <tfoot><tr><td></td><td></td><td></td><td class="button"><button type="submit" id="submit">Submit</button></td></tr></tfoot>
+        </form>
+    </table>
 
 
+    
+</div>
+<!--Additional Resources list-->
+     <div class="additionalResources">
+        <h2>Additional Resources</h2>
+        <p class="addRes">Below are some additional resources that may be helpful to you in your pet adoption journey.</p>
+        <ul>
+            <li><a href="https://home-home.org/" class="addRes">General Adoption Resources</a></li>
+            <li><a href="https://www.aspca.org/" class="addRes">ASPCA</a></li>
+            <li><a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" class="addRes">Fish Rescue</a></li>
+            <li><a href="https://savethesnakes.org/snakerescuecall/" class="addRes">Snake Rescue</a></li>
+            <li><a href="https://ftlob.rescuegroups.org/" class="addRes">Bird Rescue</a></li>
+        </ul>
      </div>
+     
+
+    
+     <!--Footer section-->
+     <footer>
+        <div class="smallLogo">
+            <a href="index.html"><img class="smallLogo" src="newLogo.png" alt="3 overlaping P's in different colors with the word Paradigm Pet Professionals"></a>
+            
+        </div>
+        <div class="footerNav">
+            <table class="footerTable">
+            <th><a class="footer" href="/index.html">Home</a></th>
+            <th><a class="footer" href="/Cats.html">Cat Care</a></th>
+            <th><a class="footer" href="/Dogs.html">Dogs</a></th>
+            <th><a class="footer" href="/Birds.html">Birds</a></th>
+            <th><a class="footer" href="/Faq.html">FAQ</a></th>
+                <tr>
+                    <td class="foot"><a href="/index.html#aboutUS">About Us</a></td>
+                    <td class="foot"><a href="/cats.html#0-4Weeks">0-4 Weeks Old</a></td>
+                </tr>
+                <tr>
+                    <td class="foot"><a href="/index.html#contactForm">Consultation Form</a></td>
+                    <td class="foot"><a href="/cats.html#4wk-1yr">4 Weeks-1 Year Old</a></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+        </table>
+        </div>
+        <div class="copyRight">Copyright 2024 Paradigm Pet Professionals</div>
+     </footer>
 </body>
 </html>

@@ -1,0 +1,239 @@
+*	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	
+}
+
+body {
+    background-color: #003B6D;
+    color: #CCCCCC;               /*Changed color to meet contrast and accessibilty standards*/
+    margin: 0;
+    padding: 0;
+}
+.bigLogo {
+    
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    float: left;
+    padding-top: 1%;
+}
+.tadLine {
+    width: 65%;
+    margin: 0 auto;
+    display: block;
+    float: center;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.motto {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    float: center;
+    padding-left: 10%;
+    padding-top: .5%;
+}
+.logoHeader {
+    
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: center;
+         
+    padding-bottom: 4%;
+
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+a {
+    color: #6699CC;
+    text-decoration: none;
+}
+a.addRes {
+    color: #6699CC;
+    text-decoration: underline;
+}
+.topNav {
+    overflow: hidden;
+    background-color: #676767;
+}
+.topNav a {
+    float: left;
+    display: block;
+    color: #6699CC;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+form.searchBox {
+    float: right;
+    padding: 10px 30px;
+}
+button#searchButton { 
+    color: #003B6D;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer; 
+    text-align: center;
+   
+
+}
+label[name=searchTextBox]{
+    color: #CCCCCC;
+    text-align: center;
+    
+}
+.topNav a:hover {
+    background-color: #6699CC;
+    color: #003B6D;
+}
+.topNav a.active {
+    background-color: #6699CC;
+    color: #003B6D;
+}
+
+img.rotatingImage {
+    float: left;
+    padding: 10px 10px;
+    width: 45%;
+    height: 500px;
+}
+div.mainContent {
+    padding: 20px 20px;
+   
+}
+h1.firstSection {
+    
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 2%;
+}
+p.mainContentP{
+    text-align: center;
+    width: 100%;
+}
+h1.contactUs {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+h3.contactUs {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    
+}
+div.contactForm{
+    background-color: #676767;
+    width: 75%;
+    margin: 0 auto;
+    color: #6699CC;
+}
+
+
+label.form {
+    display: block;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+select.timeZone{
+    font-size: medium;
+}
+label#required{
+   font-size: small;
+   padding-top: 0;
+}
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+tr {
+    padding: 5px 5px;
+}
+td.button {
+    text-align: center;
+    
+}
+button#submit {
+    color: #003B6D;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer; 
+    text-align: center;
+}
+
+div.additionalResources {
+    padding: 2px 2px;
+    width: 75%;
+    margin: 0 auto;
+    color: #CCCCCC;
+    font-style: italic;
+}
+p.addRes {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+footer{
+    border-top: 5px solid #676767;
+}
+img {
+   width: 25%;
+   float: left;
+}
+footer {
+    padding: 10px 10px;
+}
+
+td.foot{
+    font-size: 16px;
+    padding: 5px 5px;
+    text-align: center;
+}  
+
+
+   
+    
+
+div.footerNav {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+   
+}
+a.footer {
+    color: #6699CC;
+    text-decoration: underline;
+
+}
+div.copyRight {
+    
+    text-align: right;
+    padding: 10px 10px;
+    font-size: 15px;
+    
+}
+

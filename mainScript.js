@@ -1,4 +1,4 @@
-//rotating image variables and functions
+//rotating image variables for pics and alt text
 let pics = ["2dogs.jpg", "birdSolo.jpg", "catBird.jpg", "fishBowl.jpg", "tuxedoCat.jpg"];
 let altText = ["Golden doodle and black lab sitting next to each other on an oriental rug tongues out happy",
     "A grey parakeet with white wings, a yello head, and orange cheeks perched on an open cage door",
@@ -8,7 +8,7 @@ let altText = ["Golden doodle and black lab sitting next to each other on an ori
 let i = 0;
 let time = 5000;
 let pic = document.rotatingImage;
-
+//function to rotate through images
 function rotateImage() {
     pic.src = pics[i];
     pic.alt = altText[i];
@@ -21,4 +21,5 @@ function rotateImage() {
     setTimeout(rotateImage, time);
    
 }
+//event listener to call function on page load
 addEventListener("load", rotateImage);
