@@ -109,9 +109,19 @@ img.rotatingImage {
     width: 45%;
     height: 500px;
 }
+img.calico {
+    float: left;
+    padding: 10px 10px;
+    width: 35%;
+    height: 300px;
+}
+
 div.mainContent {
     padding: 20px 20px;
    
+}
+div.section1{
+    padding-bottom: 6%;
 }
 h1.firstSection {
     
@@ -120,6 +130,10 @@ h1.firstSection {
     font-size: 36px;
     font-weight: bold;
     padding-top: 2%;
+}
+h1#catCare{
+    margin-top: 0;
+    padding-top: 0;
 }
 p.mainContentP{
     text-align: center;
@@ -131,6 +145,14 @@ h1.contactUs {
     font-weight: bold;
     margin: 0 auto;
     padding-top: 1%;
+}
+h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    border-top: 1px solid #676767;
+    
+    
 }
 h3.contactUs {
     text-align: center;
@@ -191,7 +213,7 @@ p.addRes {
     font-size: 20px;
     font-weight: bold;
 }
-ul {
+ul.addResources {
     list-style-type: none;
     text-align: center;
     
