@@ -20,17 +20,43 @@
     </div>
 <!-- topNav section below logoHeader -->
 <div class="topNav">
-    <a href="/index.html">Home</a>
-    <a href="/Cats.html">Cats</a>
-    <a href="/Dogs.html" class="active">Dogs</a>
-    <a href="/Birds.html">Birds</a>
-    <a href="/Faq.html">FAQ</a>
- <!--my skills are not advanced enough to successfully create dropdown menus under the main menu items linking to the page sections. -->   
-    <form action="searchSite" class="searchBox">
-        <label id="searchTextBox" name="searchTextBox" for="searchTextBox">Search Our Sight:</label>
-        <input type="search" name="searchTextBox" id="searchTextBox">
-        <button type="submit" id="searchButton">&#128269 Search</button>
-    </form>
+    <nav class="topNav">
+        <ul class="primary">
+            <li><a href="./index.html" class="active">Home</a>
+             <ul class="Submenu">
+                <li><a href="./index.html#aboutUS">About Us    </a></li>
+                <li><a href="./index.html#contactForm">Contact Form</a></li>
+             </ul>
+            </li>
+            <li><a href="./cats.html">Cats</a>
+             <ul class="Submenu">
+                <li><a href="./cats.html#0-4Weeks">0-4 Weeks</a></li>
+                <li><a href="./cats.html#4wk-1yr">4 Weeks - 1 Year</a></li>
+                <li><a href="./cats.html#1-7year">1-7 Years</a></li>
+                <li><a href="./cats.html#over7">Over 7 Years</a></li>
+             </ul>
+            </li>
+            <li><a href="./dogs.html">Dogs</a>
+                <ul class="Submenu">
+                    <li><a href="./dogs.html#dietExercise">Diet and Exercise</a></li>
+                    <li><a href="./dogs.html#groomingHandling">Grooming and Handling</a></li>
+                    <li><a href="./dogs.html#vaccinationMedication">Vaccines and Medications</a></li>
+                 </ul>
+            </li>
+            <li><a href="./birds.html">Birds</a>
+                <ul class="Submenu">
+                    <li><a href="./birds.html#relationalNeeds">Relational Needs</a></li>
+                    <li><a href="./birds.html#depressionList">Signs of Depression</a></li>
+                 </ul>
+            </li>
+            <li><a href="./Faq.html">FAQ</a></li>
+        </ul>
+        <form action="submit" class="Formsearch">
+        <label for="search" class="hidden">Search Our Sight:</label>
+        <input type="search" class="search">
+        <button type="submit" class="buttonSearch">&#x1F50D;Search</button>
+        </form>
+    </nav>
         
 </div>
 <!-- images section below topNav -->
@@ -83,14 +109,14 @@
         <tr>
             <td><label class="form"  for="phone">Phone:</label></td>
             <td><input type="tel" id="phone" name="phone" required></td>
-            <td><label class="form"  for="petAge">Pet Age</label></td>
+            <td><label class="form"  for="petAge">Pet Age:</label></td>
             <td><input type="petAge" name="petAge" id="petAge" required></td>
         </tr>
            
         <tr>
             <td><label class="form"  for="email">Email:</label></td>
             <td><input type="email" id="email" name="email" required></td>
-            <td><label class="form"  for="petName">Pet Name</label></td>
+            <td><label class="form"  for="petName">Pet Name:</label></td>
             <td><input type="petName" name="petName" id="petName" required></td>
         </tr>
             
